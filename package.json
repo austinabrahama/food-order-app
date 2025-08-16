@@ -1,0 +1,29 @@
+{
+  "name": "food-order-app",
+  "version": "1.0.0",
+  "description": "This is a food ordering app",
+  "scripts": {
+    "dev": "parcel index.html",
+    "start": "npm run dev",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinabrahama/food-order-app.git"
+  },
+  "keywords": [],
+  "author": "Austin Abraham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinabrahama/food-order-app/issues"
+  },
+  "homepage": "https://github.com/austinabrahama/food-order-app#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
