@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This is a food ordering app",
   "scripts": {
-    "dev": "parcel index.html",
+    "dev": "parcel public/index.html",
     "start": "npm run dev",
-    "build": "parcel build index.html",
+    "build": "parcel build public/index.html",
     "test": "jest"
   },
   "repository": {
