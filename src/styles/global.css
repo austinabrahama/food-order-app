@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: #000;
 }
 
 body {
@@ -36,6 +37,10 @@ body {
     font-weight: bold;
 }
 
+.nav-items ul li a {
+    text-decoration: none;
+}
+
 .res-container {
     margin: 20px 0px;
     display: flex;
@@ -56,4 +61,31 @@ body {
     border-radius: 10px;
     max-height: 170px;
     object-fit: cover;
+}
+
+
+input {
+    width: 250px;
+    height: 36px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #ffffff;
+    font-size: 12px;
+}
+
+button {
+    padding: 8px 12px;
+    color: #222222;
+    background-color: #e3e3e3;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border-width: 0;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.ml-10 {
+    margin-left: 10px;
 }
