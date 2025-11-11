@@ -89,3 +89,175 @@ button {
 .ml-10 {
     margin-left: 10px;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-gap-xs {
+    gap: 10;
+}
+
+.flex-gap-sm {
+    gap: 20;
+}
+
+.flex-gap-md {
+    gap: 30;
+}
+
+.flex-gap-ls {
+    gap: 40;
+}
+
+.shimmerContainer {
+    padding: 10px;
+}
+
+.ShimmerCard {
+    width: 265px;
+}
+
+.ShimmerCard .shimmerPrimary {
+    height: 170px
+}
+
+.ShimmerCard .shimmerSecondary {
+    height: 40px
+}
+
+.ShimmerCard .shimmerTertiary {
+    height: 20px
+}
+
+.shimmerPrimary, .shimmerSecondary, .shimmerTertiary {
+    background-color: lightgray;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.res-details-image {
+    width: 156px;
+    height: 144px;
+}
+
+.rounded-md {
+    border-radius: 12px;
+}
+
+.w-30p {
+  width: 30% !important;
+}
+
+.w-50p {
+  width: 50% !important;
+}
+
+.w-70p {
+  width: 70% !important;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.m-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.mt-xxs {
+  margin-top: 3px !important;
+}
+
+.mt-xs {
+  margin-top: 5px !important;
+}
+
+.mt-sm {
+  margin-top: 10px !important;
+}
+
+.mt-md {
+  margin-top: 12px !important;
+}
+
+.mt-lg {
+  margin-top: 15px !important;
+}
+
+.pt-lg {
+  padding-top: 15px !important;
+}
+
+.pt-xl {
+  padding-top: 20px !important;
+}
+
+.pt-xxl {
+  padding-top: 25px !important;
+}
+
+.pb-xl {
+  padding-bottom: 20px !important;
+}
+
+.pb-xxl {
+  padding-bottom: 25px !important;
+}
+
+
+/*! Font size Starts */
+.fs10 {
+  font-size: 10px !important;
+}
+
+.fs12 {
+  font-size: 12px !important;
+}
+
+.fs14 {
+  font-size: 14px !important;
+}
+
+.fs16 {
+  font-size: 16px !important;
+}
+
+.fs18 {
+  font-size: 18px !important;
+}
+
+.fs20 {
+  font-size: 20px !important;
+}
+
+.fs22 {
+  font-size: 22px !important;
+}
+
+.fs24 {
+  font-size: 24px !important;
+}
+
+/*! Font size Ends */
+
+.res-details {
+    border-bottom: 1px solid #c3c3c3;
+    justify-content: space-between;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
